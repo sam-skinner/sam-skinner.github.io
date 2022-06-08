@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <title>Frontend Mentor | Expenses chart component</title>
+    <link rel="stylesheet" href="style.css" />
+    <script type="text/javascript" src="main.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <section class="balance">
+      <div class="balance-content">
+        <h3>My balance</h3>
+        <p class="total-balance">$921.48</p>
+      </div>
+      <img src="images/logo.svg" alt="logo" />
+    </section>
+    <section class="spending">
+      <h2>Spending - Last 7 days</h2>
+      <div class="chart">
+        <div class="col" id="mon">
+          <div class="tooltip"></div>
+          <div class="bar"></div>
+          <h3>mon</h3>
+        </div>
+        <div class="col" id="tue">
+          <div class="tooltip"></div>
+          <div class="bar"></div>
+          <h3>tue</p>
+        </div>
+        <div class="col" id="wed">
+          <div class="tooltip"></div>
+          <div class="bar"></div>
+          <h3>wed</p>
+        </div>
+        <div class="col" id="thu">
+          <div class="tooltip"></div>
+          <div class="bar"></div>
+          <h3>thu</h3>
+        </div>
+        <div class="col" id="fri">
+          <div class="tooltip"></div>
+          <div class="bar"></div>
+          <h3>fri</h3>
+        </div>
+        <div class="col" id="sat">
+          <div class="tooltip"></div>
+          <div class="bar"></div>
+          <h3>sat</h3>
+        </div>
+        <div class="col" id="sun">
+          <div class="tooltip"></div>
+          <div class="bar"></div>
+          <h3>sun</h3>
+        </div>
+      </div>
+      <hr />
+      <div class="spending-content">
+        <div class="monthly-spending">
+          <h3>Total this month</h3>
+          <p class="total-spending">$478.33</p>
+        </div>
+        <div class="percent-change">
+          <p><b>+2.4%</b></p>
+          <h3>from last month</h3>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">
+        Frontend Mentor</a
+      >. Coded by <a href="#">Sam Skinner</a>.
+    </footer>
+  </body>
+</html>
